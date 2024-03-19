@@ -1,0 +1,54 @@
+/* Common styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for player.html */
+nav {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav:hover {
+    background-color: white;
+}
+
+nav .evolution-link, .logout {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav .evolution-link:hover, .logout:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Styles for evolution.html */
+.container {
+    background-color: #f0f0f0; /* Soft pastel background */
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#emotion-evolution-chart {
+    min-height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+#emotion-legend {
+    font-size: 14px;
+    margin-top: 20px;
+    /* Additional styling here... */
+}

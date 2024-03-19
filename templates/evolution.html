@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Evolution</title>
+    <link rel="stylesheet" href="/static/evolutionstyles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Emotion Evolution Tracking</h1>
+        <div id="emotion-legend">
+            <p><strong>Emotion Scale:</strong></p>
+            <ul>
+                <li>1 - Angry</li>
+                <li>2 - Disgust</li>
+                <li>3 - Fear</li>
+                <li>4 - Happy</li>
+                <li>5 - Sad</li>
+                <li>6 - Neutral</li>
+                <li>7 - Surprise</li>
+            </ul>
+        </div>
+        
+        <div id="emotion-evolution-chart">
+            <canvas id="emotionChart"></canvas>
+        </div>
+    </div>
+</body>
+<script src="/static/main.js"></script>
+</html>
